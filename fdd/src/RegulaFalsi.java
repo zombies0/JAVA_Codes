@@ -1,6 +1,5 @@
 //Regula Falsi
 
-import java.lang.*;
 import java.util.*;
 
 class RegulaFalsi {
@@ -45,7 +44,6 @@ class InnerRegulaFalsi {
 
         Double mm2 = 0.0, mm = 0.0, m = 0.0;
         Double tolDiff = 10.0;
-        int i = 0;
         Double f1 = f(x1), f2 = f(x2);
 
         if (f1 == 0.0 ){
@@ -68,7 +66,6 @@ class InnerRegulaFalsi {
                 m = ( ( (f(x2) * x1) - (f(x1) * x2) )/ (f(x2) - f(x1)) );
         
                 mm = f(m);
-
                 tolDiff = tolDif(mm,mm2);
 
                 if (mm == 0.0) {
@@ -84,10 +81,6 @@ class InnerRegulaFalsi {
 
                     x1 = m;      
 
-                i++;
-
-                System.out.println("m = " + m);
-
             }
 
         }else{
@@ -96,8 +89,8 @@ class InnerRegulaFalsi {
             return 0.0;
         }
 
-        System.out.println("Tolerance limit reached\n" + i);
+        System.out.println("Tolerance limit reached\n");
         return m;
     }
-
+    
 }
