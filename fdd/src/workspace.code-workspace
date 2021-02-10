@@ -1,14 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "../../../../Documents/c coding"
-		},
-		{
 			"path": "../.."
 		},
 		{
 			"path": "../../../Python"
+		},
+		{
+			"path": "../../../c coding"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
