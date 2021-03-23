@@ -1,16 +1,17 @@
-//import java.io.File;
+import java.io.File;
+import java.io.*;
 
 class Fil{
 
     public static void main(String[] args)throws Exception {
 
+
+        // File Methods
         
        /** Objects
          *  File f1 = new File("abcd.txt");
          *  File f2 = new File("/Users/ambrish/Desktop/VS_CODEw/fdd/src");
         */ 
-        
-        
 
 
         /** Files creation and modification
@@ -59,16 +60,37 @@ class Fil{
          *
         */
 
+
+        //File Reader and Buffered Reader
+
+        /** Objects
+         *  FileReader fr = new FileReader("abcd.txt");
+         *  BufferedReader br = new BufferedReader(fr);
+        */
+
+        /** File Reader & Buffered Reader Methods
+         *  System.out.println("Char = " fr.read());
+         *  System.out.println("Ready to read = " + br.ready());
+         *  System.out.println("Line from file = " +  br.readLine());
+         *  System.out.println("Object equals = " + br.equals(br)); 
+        */
+
         
+        // File Writer and Buffered Writer
+
+        /** Objects
+         *  FileWriter fw = new FileWriter("abcd.txt",true);//FileWriter("File name",append = true)
+         *  BufferedWriter bw = new BufferedWriter(fw);
+        */
         
-    
-
-
-
+        /** File Writer and Buffered Writer Methods
+         *  fw.write("sd");
+         *  bw.newLine();//add new line
+         *  bw.write("adbc");
+         *  bw.flush();//flush the string without closing it
+         *  bw.close();
+        */
 
     }
-
-
-
 
 }
