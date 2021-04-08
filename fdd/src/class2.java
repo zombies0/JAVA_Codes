@@ -80,7 +80,7 @@ public class class2 {
 
         }
 
-        
+        sc.close();
 
     }
 

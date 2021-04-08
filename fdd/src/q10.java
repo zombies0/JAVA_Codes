@@ -7,6 +7,7 @@ class q10 {
         String sum = "";
         int sum1 = 0;
         int sum2 = 0;
+        
         StringBuffer negSum = new StringBuffer();
 
         for (int i = 0; i < s.length(); i++) 
@@ -74,6 +75,8 @@ class q10 {
         }
 
         System.out.println("sum 1 = " + sum1);
+        System.out.println("sum 1 = " + sum2);
+        System.out.println("sum 1 = " + negSum);
         
         
 

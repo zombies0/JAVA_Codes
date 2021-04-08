@@ -20,8 +20,9 @@ public class Termwork {
             d[i] = sc.nextLine();
         }
 
-        int sum = 0;
-        int assc = 0;
+        sc.close();
+
+        
         int c = 0;
         /*
         for (int i = 0; i < n-1; i++) {

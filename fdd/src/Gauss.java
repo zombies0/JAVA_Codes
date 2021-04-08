@@ -21,6 +21,8 @@ class Gauss {
             }
         }
 
+        sc.close();
+
         System.out.println("\nMatrix\n");
         Cal.mDisplay(y);
         

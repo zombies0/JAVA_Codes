@@ -5,11 +5,11 @@ public class Wc {
     public static void main(String[] args) {
         int a = 1;
 
-        Integer I = new Integer(a);//
+        //Integer I = new Integer(a);//
     
-        System.out.println(I);
+        //System.out.println(I);
 
-        Integer k = Integer.valueOf(a);//
+        //Integer k = Integer.valueOf(a);//
 
         String s1 = Integer.toString(a);//convert to string
         String s2 = String.valueOf(a);

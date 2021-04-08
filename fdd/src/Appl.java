@@ -1,3 +1,5 @@
+/*
+
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -436,7 +438,7 @@ public class Appl extends Applet{
     }
 
 }
-
+*/
 /*
 <applet code="Appl.class" width=300 height=400>
 </applet>

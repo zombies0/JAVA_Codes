@@ -1,3 +1,5 @@
+package DS.Stack;
+
 //best case = O(1) worst case = O(n)
 //So the Runtime complexity of this program is O(n)
 

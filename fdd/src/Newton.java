@@ -15,6 +15,8 @@ public class Newton {
         System.out.println("\nEnter the value of tol\n");
         tol = sc.nextDouble();
 
+        sc.close();
+
         y = new_root(x1, x2, tol);
 
         System.out.println("\nroot = \n" + y);

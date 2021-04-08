@@ -2,9 +2,9 @@ public class Str {
 
     public static void main(String [] args) {
 
-        char[] c = {'a','b','c','a','v','a','n','a'};
+       // char[] c = {'a','b','c','a','v','a','n','a'};
 
-        String s = "geunew String(c)";
+        //String s = "geunew String(c)";
 
         String sum = "abc";
         String m = "abc";
@@ -34,16 +34,16 @@ public class Str {
 
         System.out.println(sum2.substring(0,2));//'abc' = ab
 
-        String f ="";
+       // String f ="";
         String fg[] ={"2","g"};
         System.out.println(fg.length);
 
-       B.main(fg);
+       Bb.main(fg);
         
     }
     
 }
-class B{
+class Bb{
 
     public static void main(String []args){
 

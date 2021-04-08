@@ -1,6 +1,8 @@
+/*
 import java.awt.event.*;
 import java.awt.*;
 import java.applet.*;
+
 
 public class Ninja extends Applet implements ActionListener{
 
@@ -38,7 +40,7 @@ public class Ninja extends Applet implements ActionListener{
         */
         //for (int i = 0; i < 10; i++)  
         
-        
+        /*
         b1.addActionListener(this);
         add(b1);    
         p.add(new Button("sub " ) );
@@ -67,6 +69,7 @@ public class Ninja extends Applet implements ActionListener{
 
 }
 
+*/
 /*
 <applet code="Ninja.class" width = 700 height=500>
 </applet>

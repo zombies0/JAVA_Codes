@@ -17,6 +17,8 @@ class RegulaFalsi {
         System.out.println("Enter the value for tolerance\n");
         tol = sc.nextDouble();
 
+        sc.close();
+        
         System.out.println("X = " + fal.root(x1,x2,tol));
         
     }

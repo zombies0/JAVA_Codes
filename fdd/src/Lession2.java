@@ -25,9 +25,9 @@ public class Lession2 {
         */
 
         
-		int x;
-        int y;
-        Point point1 = new Point(x = 1, y = 2);
+		int x=1;
+        int y=2;
+        Point point1 = new Point(x , y );
         Point point2 = point1;
 
         point1.x = 2;

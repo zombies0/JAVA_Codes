@@ -23,6 +23,8 @@ class GaussC {
             }
         }
 
+        sc.close();
+
         System.out.println("\nMatrix\n");
 
         double[][] y = new double[4][5];
@@ -48,7 +50,7 @@ class GaussC {
         System.out.println("\nUpper Triangular Matrix\n");
 
         
-        Cal v = new Cal();
+        Call v = new Call();
 
         v.mUpper(y,n);
         
@@ -57,7 +59,7 @@ class GaussC {
 
 }
 
-class Cal{
+class Call{
 
 
     void mUpper(double y[][],int n){

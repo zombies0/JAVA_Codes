@@ -2,8 +2,8 @@ public class Cl {
 
     public static void main(String s[]){
 
-        B a = new B();
-        B b = new B();
+        //B a = new B();
+        //B b = new B();
         
     }
 }
