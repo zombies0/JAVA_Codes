@@ -1,0 +1,181 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bb",
+            "request": "launch",
+            "mainClass": "Bb",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cl",
+            "request": "launch",
+            "mainClass": "Cl",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "DS.LinkedList.Main",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "DS.Stack.Stack",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fil",
+            "request": "launch",
+            "mainClass": "Fil",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gauss",
+            "request": "launch",
+            "mainClass": "Gauss",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch GaussC",
+            "request": "launch",
+            "mainClass": "GaussC",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lession1",
+            "request": "launch",
+            "mainClass": "Lession1",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lession2",
+            "request": "launch",
+            "mainClass": "Lession2",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Newton",
+            "request": "launch",
+            "mainClass": "Newton",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch P",
+            "request": "launch",
+            "mainClass": "P",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pract",
+            "request": "launch",
+            "mainClass": "Pract",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q10s",
+            "request": "launch",
+            "mainClass": "Q10s",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegulaFalsi",
+            "request": "launch",
+            "mainClass": "RegulaFalsi",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Str",
+            "request": "launch",
+            "mainClass": "Str",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Str2",
+            "request": "launch",
+            "mainClass": "Str2",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Termwork",
+            "request": "launch",
+            "mainClass": "Termwork",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Th",
+            "request": "launch",
+            "mainClass": "Th",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wc",
+            "request": "launch",
+            "mainClass": "Wc",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch class2",
+            "request": "launch",
+            "mainClass": "class2",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch lesss2",
+            "request": "launch",
+            "mainClass": "lesss2",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch q10",
+            "request": "launch",
+            "mainClass": "q10",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch A(1)",
+            "request": "launch",
+            "mainClass": "A"
+        }
+    ]
+}
