@@ -1,5 +1,7 @@
 package DS.LinkedList;
 
+import java.nio.file.FileStore;
+import java.util.Arrays;
 
 public class LinkedList {
 
@@ -50,7 +52,6 @@ public class LinkedList {
 
         }
         size++;
-
 
     }
 
@@ -112,7 +113,7 @@ public class LinkedList {
         else if(first == last) first = last = null;
         else {
 
-            var prev = getPrevious(last);
+            var prev = getPrevious();
             last = prev;
             last.next = null;
             
@@ -123,9 +124,9 @@ public class LinkedList {
 
     }
 
-    private Node getPrevious(Node prev){
+    private Node getPrevious(){
 
-        prev = first;
+        var prev = first;
 
         while(prev.next != last){
             prev = prev.next;
@@ -166,18 +167,65 @@ public class LinkedList {
         int[] array = new int[size];
 
         int i = 0;
-
+        
         var cou = first;
 
         while(cou != last){
 
             array[i++] = cou.value;
-
             cou = cou.next;
 
         }
 
+        array[i++] = cou.value;
+
         return array;
+
+    }
+
+    public void reverse(){
+
+        if(isEmpty()) throw new IllegalStateException("Empty List");
+        //Un efficient Method
+        /* int[] ar = toArray();
+
+        setEmpty();
+
+        for(int i = ar.length-1;i >= 0; i--){
+
+            addLast(ar[i]);
+        }
+        */
+        
+        var previous = first;
+        var current = first.next;
+
+        //  p -> c -> n 
+        //       p <- c -> n
+        //            p <- c <- n
+        //            first     last
+
+        while(current != null){
+
+            var next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+            
+        }
+        
+        last = first;
+        last.next = null;
+        first = previous;
+
+    }
+
+    
+
+    public void setEmpty(){
+        
+        size = 0;
+        first = last = null;
 
     }
 
