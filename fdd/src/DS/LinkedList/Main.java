@@ -21,12 +21,12 @@ public class Main{
         //list.removeLast();
         //list.removeLast();
 
-        System.out.println( Arrays.toString(list.toArray()));
+        System.out.println( Arrays.toString(list.toArray())+ "\n");
 
-        list.reverse();
+    
 
 
-        System.out.println( Arrays.toString(list.toArray()));
+        System.out.println( list.getKthFromTheEnd(4));
 
 
     }

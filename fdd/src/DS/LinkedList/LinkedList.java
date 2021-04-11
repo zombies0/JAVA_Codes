@@ -1,8 +1,5 @@
 package DS.LinkedList;
 
-import java.nio.file.FileStore;
-import java.util.Arrays;
-
 public class LinkedList {
 
     private class Node{
@@ -95,6 +92,7 @@ public class LinkedList {
 
         if (isEmpty()) throw new IllegalStateException("Linked list is empty");
         else if (first == last) first = last = null;
+
         else {
 
             var sec = first.next;
@@ -111,13 +109,12 @@ public class LinkedList {
 
         if (isEmpty()) throw new IllegalStateException("Linked List is empty");
         else if(first == last) first = last = null;
+
         else {
 
             var prev = getPrevious();
             last = prev;
             last.next = null;
-            
-
         }
 
         size--;
@@ -131,7 +128,6 @@ public class LinkedList {
         while(prev.next != last){
             prev = prev.next;
         }
-
         return prev;
     }
 
@@ -165,7 +161,6 @@ public class LinkedList {
         if (isEmpty()) throw new IllegalArgumentException("list is empty");
 
         int[] array = new int[size];
-
         int i = 0;
         
         var cou = first;
@@ -178,7 +173,6 @@ public class LinkedList {
         }
 
         array[i++] = cou.value;
-
         return array;
 
     }
@@ -186,9 +180,9 @@ public class LinkedList {
     public void reverse(){
 
         if(isEmpty()) throw new IllegalStateException("Empty List");
+
         //Un efficient Method
         /* int[] ar = toArray();
-
         setEmpty();
 
         for(int i = ar.length-1;i >= 0; i--){
@@ -196,31 +190,29 @@ public class LinkedList {
             addLast(ar[i]);
         }
         */
-        
-        var previous = first;
-        var current = first.next;
-
+  
+        //Efficient Method
         //  p -> c -> n 
         //       p <- c -> n
         //            p <- c <- n
         //            first     last
+
+        var previous = first;
+        var current = first.next;
 
         while(current != null){
 
             var next = current.next;
             current.next = previous;
             previous = current;
-            current = next;
-            
+            current = next;   
         }
-        
+
         last = first;
         last.next = null;
         first = previous;
 
     }
-
-    
 
     public void setEmpty(){
         
@@ -229,8 +221,30 @@ public class LinkedList {
 
     }
 
+    public int getKthFromTheEnd(int pos) {
+
+        if (isEmpty() || pos < 1 /*if we now size|| pos > size*/) throw new NullPointerException();
+
+        var next = first;
+        var current = first;
+
+        for (int i = 0; i < pos-1; i++) 
+
+            next = next.next;
+
+        if (next == null) throw new NullPointerException();
+        
+        while (next != last){
+
+            next = next.next;
+            current = current.next;
+
+        }
+
+        return current.value;
+
+    }
+
+
     // 1 2 3 4 5 6
-
-
-
 }
