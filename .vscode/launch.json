@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Stacksq2",
+            "request": "launch",
+            "mainClass": "DS.Stack.Stacksq2",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stacks",
+            "request": "launch",
+            "mainClass": "DS.Stack.Stacks",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
             "name": "Launch Main2",
             "request": "launch",
             "mainClass": "DS.LinkedList.Main2",
