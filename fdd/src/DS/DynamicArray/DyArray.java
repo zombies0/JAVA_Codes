@@ -1,9 +1,9 @@
-package DS.Stack;
+package DS.DynamicArray;
 
 //best case = O(1) worst case = O(n)
 //So the Runtime complexity of this program is O(n)
 
-class Stack {
+class DyArray {
     public static void main(String[] args) {
         
         Array number = new Array(3);
