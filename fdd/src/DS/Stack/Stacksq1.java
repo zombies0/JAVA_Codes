@@ -1,8 +1,6 @@
 //Ques1 reverse a string using stacks
 package DS.Stack;
 
-import java.util.*;
-
 public class Stacksq1 {
 
     public static void main(String[] args) {
@@ -16,7 +14,7 @@ public class Stacksq1 {
 
     public static String reverseS(String s) {
 
-        Stack<Character> stack = new Stack<>();
+        java.util.Stack<Character> stack = new java.util.Stack<>();
         
         for(char i : s.toCharArray()){
             stack.push(i);

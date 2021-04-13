@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "DS.Stack.Main",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stacksq1",
+            "request": "launch",
+            "mainClass": "DS.Stack.Stacksq1",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Codechef",
+            "request": "launch",
+            "mainClass": "Codechef",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
             "name": "Launch Stacksq2",
             "request": "launch",
             "mainClass": "DS.Stack.Stacksq2",
