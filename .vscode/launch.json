@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "DS.Queue.Main",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "DS.Stack.Main",
             "projectName": "VS_CODEw_dbb313fe"
         },

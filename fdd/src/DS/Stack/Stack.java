@@ -8,23 +8,14 @@ public class Stack {
     private int top = 0;
     private int size = 5;
 
-    Stack(){
+    public Stack(){ ar = new int[size]; }
 
-        ar = new int[size];
-    }
-
-    Stack(int size) {
-
-        ar = new int[size];
-
-    }
+    public Stack(int size) { ar = new int[size]; }
 
     public void push(int n){
 
         if (isFull()) {
-
             //throw new StackOverflowError(); //to make stack static
-
             int[] nAr = new int[ar.length * 2];
             
             for (int i = 0; i < ar.length; i++){
@@ -40,9 +31,7 @@ public class Stack {
 
     public int pop(){
 
-        if (isEmpty()) {
-            throw new IllegalStateException("Stack Underflow");
-        }
+        if (isEmpty()) throw new IllegalStateException("Stack Underflow");
 
         int k = ar[top];
         ar[top--] = 0;
@@ -51,9 +40,7 @@ public class Stack {
 
     }
 
-    private boolean isFull(){
-        return ar.length-1 == top;
-    }
+    private boolean isFull(){ return ar.length-1 == top; }
 
     public int peek() {
 
@@ -81,8 +68,6 @@ public class Stack {
         return Arrays.toString(Arrays.copyOfRange(ar, 0, top));
     }
 
-    public int top() {
-        return top;
-    }
+    public int top() { return top; }
     
 }
