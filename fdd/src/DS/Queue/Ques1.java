@@ -18,6 +18,8 @@ public class Ques1 {
         reverse(qeueue);
 
         System.out.println(qeueue);
+        qeueue.remove();
+        System.out.println(qeueue);
 
     }
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ques1",
+            "request": "launch",
+            "mainClass": "DS.Queue.Ques1",
+            "projectName": "VS_CODEw_dbb313fe"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "DS.Queue.Main",
